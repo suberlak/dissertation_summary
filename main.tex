@@ -1,0 +1,105 @@
+%%
+%% Beginning of file 'sample62.tex'
+%%
+%% Modified 2018 January
+%%
+%% This is a sample manuscript marked up using the
+%% AASTeX v6.2 LaTeX 2e macros.
+%%
+%% AASTeX is now based on Alexey Vikhlinin's emulateapj.cls 
+%% (Copyright 2000-2015).  See the classfile for details.
+
+%% AASTeX requires revtex4-1.cls (http://publish.aps.org/revtex4/) and
+%% other external packages (latexsym, graphicx, amssymb, longtable, and epsf).
+%% All of these external packages should already be present in the modern TeX 
+%% distributions.  If not they can also be obtained at www.ctan.org.
+
+%% The first piece of markup in an AASTeX v6.x document is the \documentclass
+%% command. LaTeX will ignore any data that comes before this command. The 
+%% documentclass can take an optional argument to modify the output style.
+%% The command below calls the preprint style  which will produce a tightly 
+%% typeset, one-column, single-spaced document.  It is the default and thus
+%% does not need to be explicitly stated.
+%%
+%%
+%% using aastex version 6.2
+\documentclass[modern]{aastex62}
+
+
+
+\begin{document}
+%\maketitle
+\title{Dissertation Summary}
+\author{Krzysztof Suberlak}
+\affil{University of Washington, Seattle}
+
+\date{ \today
+}
+
+\begin{abstract}
+The dissertation summary.... 
+\end{abstract}
+
+\section*{Prompt}
+"Provide the 10 page dissertation summary to your committee (with a cc: to Christine for
+departmental records). The summary includes the scientific context for your proposed
+dissertation, a description of the proposed research and a likely timeline for completion of
+major milestones."
+
+\section{Scientific Context}
+
+Quasars are some of the brightest sources of radiation in the Universe. 
+
+What is a quasar? Quasi-Stellar Object - a source of light that appears like an unresolved point source, a star. Yet it does not look like any star when investigated under a spectroscope - the spectrum is very non-thermal,  unlike any blackbody. When observed with a larger telescope, and longer exposure time, we may gather enough light to realize that there is also a faint glow of a host galaxy  surrounding it - so much fainter than the quasar light that it was not realized until few decades after a serendipitous discovery of the first quasar. A quasar is an emission from the hot accretion disk surrounding a supermassive black hole in the center of the host galaxy.  Such active galactic nuclei - AGN - have been observed in a more local universe, where we can distinguish the intense radiation of  jets of matter directed away from the disk, radio-lobes of heated gas emitted away from the central maelstrom, and the host galaxy. Quasars are orders of magnitude brighter than local AGN, and for this reason (and their cosmological distance) have traditionally deserved this separate nomenclature. 
+
+Because quasars are present across the observable universe, from the earliest newly-forming galaxies in the recently reionized universe, to those galaxies that have already formed billions of years earlier, they are an excellent probe of how the universe and its content evolved over time. 
+
+
+Quasars are used as very bright light houses that shine through other galaxies, or clouds of gas, and both leave imprint in the light of the quasar  (Hennawi, Prochaska : QPQ,  McQuinn, etc : DLA, etc.).
+
+Quasars shine light on the epoch of reionization - the moment when the universe, full of neutral Hydrogen and Helium from the Big Bang, became ionized (AlSayyad thesis : the reionization ). 
+
+
+Since quasars accompany a phase of a rapid growth of a supermassive black hole, we need to study their duty cycle to properly understand the growth of galaxies, and AGN feedback. Quasar luminosity function is directly related to the evolution of the galactic initial mass function (McGreer+2013). 
+
+An accretion disk is an extreme environment. It is a disk of viscously heated matter inspiralling onto a supermassive black hole. The disk itself is merely a few times bigger than  the solar system  (eg.\cite{mudd2017} ) based on reverberation mapping shows that majority of his sample has disk size at 2500 angstroms between 1-10 light days,  while the orbit of pluto is 0.2277 light days ), yet its emission overwhelms all the light from the stars of the host galaxy.  The disk itself due to its small size (compared to the galaxy itself) cannot be resolved with a telescope. In case of quasars, the accretion disk is so much brighter than all the stars of the host galaxy, that initially one only sees the light that appears to all come from one point in space - exactly like in case of a star. Hence the light from an accretion disk appears point-like : quasi-stellar. However,  if one allows to collect the light for much longer, with bigger collecting area  we begin to see the stellar light from the galaxy hosting the active nucleus ( eg. Hubble). 
+
+Although we cannot resolve the accretion disk, it turns out that thanks to its dynamic behavior  - the matter actively accreting onto the central supermassive black hole - its brightness varies over time. This accretion disk flicker can be linked to the physical properties of the disk : its extent, viscosity, and processes driving its evolution, which helps understand the process of growth of supermassive black holes.  Since for a quasar the emission from the accretion disk is dominant compared to the stellar light from the host galaxy, we can assume that all the coherent variability  in the quasar light curve is related to the accretion disk variability . Indeed, the discovery that the quasar light can vary significantly over a period of weeks led to implication that the size of the accretion disk cannot be larger than few light weeks, due to causality. 
+
+Now it is understood that the characteristic timescale of this stochastic ( almost random ) variability can be related to the thermal timescales of the disk. 
+
+
+We find that the stochastic variability of quasar light over time can be mathematically described as a Damped Random Walk. 
+
+One way of describing the variation in brightness over time is to plot the signal against time - that is the light curve.  A light curve can be further characterized by a structure function, that describes the spread in magnitude differences between pairs of points as a function of time separation. Structure Function tells us how much correlation there is between parts of light curve separated by a given time.  
+
+Structure function is also related to the power spectral density. SF can be seen as a mirror image of PSD, in a sense that SF is a function of time differences, while PSD is a function of frequency , which is the inverse of  time differences. 
+
+Processes that have a flat PSD - having an equal power across the entire frequency spectrum -  are described as "white" noise, like white light that includes all colors. To further this analogy, stochastic processes that can be described by a simple power law, and yet depart from "white" noise, are termed  "colored" noise, depending on the relative amplitude of PSD at various frequencies. Thus we have "red", "pink", or "blue" noise   (see Appendix  C in \cite{kasliwal2017} for further details). ( Also, great illustration of how a light curve looks like depending on an exponent of a PSD is found in \cite{macleod2010}, Fig. 9 ). 
+
+
+Over the last decade we have significantly improved our understanding of quasars, and new variability-based clasification techniques (Palanque-Delabrouille,  Richards,  Fan,  MacGreer, etc.) have yielded an unprecedented number of quasars that allows a statistical study. The new quasar catalogues (eBOSS, etc) allowed  to further constrain the Quasar Luminosity Function (Palanque-Delabrouille+2016, Ross+2013, Myers+2015 
+
+%  from Yusra's  thesis : 
+%
+%\footnote{'The optical QLF has been measured for bright quasars from z < 6 in wide-area surveys, such as the Sloan Digital Sky Survey (SDSS) (Fan et al. 2001; Richards et al. 2006, 2008; Shen \& Kelly 2012; Ross  et al. 2013; Jiang et al. 2009; Willott et al. 2010; Palanque-Delabrouille et al. 2012), and for faint quasars at z<   5 (McGreer et al. 2013; Wittman et al. 2002; Jiang et al. 2006). However, at redshift 4, the faint-end luminosity function measurements (Ikeda et al. 2011;Masters et al. 2012; Glikman et al. 2011; Giallongo et al. 2015) are discrepant (by a factor of ≈ 4). These measurements are poorly constrained because they are limited to small areas (1–3 deg2) and thus are subject to low number counts and cosmic variance. The previous, discrepant measurements of the QLF at z ∼ 4 imply very different cosmic histories, because the evolution of the shape of the QLF impacts our understanding of how SMBHs grow (§1.1), and the faint-end slopes affect our understanding of cosmic reionization (§1.2). The steeper faint-end slopes measured by Glikman et al. (2011) and Giallongo et al.(2015) imply that quasars alone could have reionized the universe by z ∼ 6 (Madau \& Haardt 2015); the flatter slopes measured by Ikeda et al. (2011); Masters et al. (2012) would imply that quasars contributed a negligible amount of UV photons to reionization.”   ( pages 1-2 )   "Independently, the added depth and variability information available from Stripe 82 havealready proven fruitful in measuring the QLF at lower redshift z < 4 (e.g., Ross et al. 2013;Palanque-Delabrouille et al. 2012) and at z ∼ 5 (McGreer et al. 2013)”  (page 2) - Yusra AlSayyad's PhD thesis }
+
+
+%A better understanding of how well the Damped Random Walk model can be used to model quasar variability is crucial for using DRW model best-fit parameters to characterize and classify quasars. It is a relatively recent field : Kelly+2009 showed that DRW parameters can be linked to the physics of the accretion disk.  Then  MacLeod+2011 moved the field of quasar variability studies from a handful of objects to a proper statistical study, fitting over 10 000 quasars in SDSS Stripe 82 with DRW model. This was followed by others, in particular Kozlowski+2017, who showed that in DRW model the length of light curve is the most important predictor of biases in best-fit parameters.  His main conclusion is that when the light curve length (baseline) is not long enough ( less than 10 times the intrinsic timescale ), then the bias will be larger than a few \%. He showed that for a light curve of length similar to the intrinsic timescale, we expect the bias in retrieved timescale of a factor of 3, which we confirm in our independent study.  We find with Celerite that a longer basline can decrease the bias, which implies that the extended light curve can help improve the results of MacLeod+2011.  
+
+%Encouraged by a good performance of Celerite, that uses Gaussian Processes to fit light curves with the DRW model  ( DFM+2017 \url{http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1703.09710}), we test its usefulness with simultaneous fitting with combination kernels,  eg. sinusoidal oscillation on top of the DRW. This could be used to distinguish the signal of periodic stars from  stochastic quasars, or to classify quasars with binary SMBH. Using combination kernels has been explored by Angus+2017 \url{https://academic.oup.com/mnras/article/474/2/2094/4209242}. 
+
+
+
+
+
+\section{Proposed Research}
+
+\section{Timeline}
+
+
+%%%%%%%%%%%%%%%%%%%% REFERENCES %%%%%%%%%%%%%%%%%%
+\bibliographystyle{mnras}
+\bibliography{../referencesMaster}
+
+\end{document}
