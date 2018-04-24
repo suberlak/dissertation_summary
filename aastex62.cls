@@ -667,7 +667,7 @@ revtex4-1.cls^^J^^J}\stop
 \vglue-18pt
 {\footnotesize
 \raggedright
-{\sc  version \today }\\[2pt]
+{\sc  \today }\\[2pt]
 {\footnotesize
 Typeset using \LaTeX\ {\bf modern} style in AASTeX62}
 \vskip48pt
